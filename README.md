@@ -1,5 +1,3 @@
-# Python API Homework - What's the Weather Like?
-
 ## Background
 
 Whether financial, political, or social -- data's true power lies in its ability to answer questions definitively. So let's take what you've learned about Python requests, APIs, and JSON traversals to answer a fundamental question: "What's the weather like as we approach the equator?"
@@ -8,7 +6,7 @@ Whether financial, political, or social -- data's true power lies in its ability
 
 ## Part I - WeatherPy
 
-In this example, you'll be creating a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, you'll be utilizing a [simple Python library](https://pypi.python.org/pypi/citipy), the [OpenWeatherMap API](https://openweathermap.org/api), and a little common sense to create a representative model of weather across world cities.
+This Python script visualizes the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, you'll be utilizing a [simple Python library](https://pypi.python.org/pypi/citipy), the [OpenWeatherMap API](https://openweathermap.org/api), and a little common sense to create a representative model of weather across world cities.
 
 The first requirement is to create a series of scatter plots to showcase the following relationships:
 
@@ -70,14 +68,5 @@ To complete this part of the assignment,you will need to do the following:
 * Plot the hotels on top of the humidity heatmap with each pin containing the **Hotel Name**, **City**, and **Country**.
 
   ![hotel map](Images/hotel_map.png)
-
-As final considerations:
-
-* You must complete your analysis using a Jupyter notebook.
-* You must use the Matplotlib or Pandas plotting libraries.
-* For Part I, you must include a written description of three observable trends based on the data.
-* For Part II, you must include a screenshot of the heatmap you create and include it in your submission.
-* You must use proper labeling of your plots, including aspects like: Plot Titles (with date of analysis) and Axes Labels.
-* For max intensity in the heat map, try setting it to the highest humidity found in the data set.
 
 
